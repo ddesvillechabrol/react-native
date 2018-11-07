@@ -192,7 +192,7 @@ public class ReactViewBackgroundDrawable extends Drawable {
 
       outline.setConvexPath(mPathForBorderRadiusOutline);
     } else {
-      outline.setRect(getPathForBorderOutline());
+      outline.setConvexPath(getPathForBorderOutline());
     }
   }
 
